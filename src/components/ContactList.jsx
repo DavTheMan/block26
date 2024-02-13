@@ -14,7 +14,7 @@ export default function ContactList({setSelectedContactId}){
             try{
                 //fetch logic
                 const response = await fetch(
-                    "https://jsonplace-univclone.herokuapp.com/users"
+                    "https://fsa-jsonplaceholder-69b5c48f1259.herokuapp.com/users"
                 );
                 const result = await response.json();
                 setContacts(result);
